@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Decorators</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="css/style.css">
+   </head>
+   <body>
+		<header class="nav-sec">
+		   <section class="nav-logo-sec">
+				<i class="fa-brands fa-pied-piper"></i>
+		   </section>
+			<ul class="nav-sec-links">
+				<li><a href="#">HOME</a></li>
+				<li><a href="#">ABOUT</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="#">CONTACT</a></li>
+				<li><a href="#">WORK</a></li>
+			</ul>
+		</header>
+	   <main>
+		   <section class="banner">
+				<section>
+					<i class="fa-solid fa-circle-arrow-left arrows"></i>
+				</section>
+				<section class="banner-text-sec"> 
+					<h1>amet conse</h1>
+					<h2>Lorem ipsum dolor sit amet conse vivamus turi</h2>
+					<p>nullam malesuada erat ut turpis suspendisse urna</p>
+					<p>lorem ipsum dlo</p>
+				</section >
+				<section>
+					<i class="fa-solid fa-circle-arrow-right arrows"></i>
+				</section>
+			</section>
+			<section class="second-sec">
+				<section class="second-sec-text">
+					<h2>sed egestas ante etviu</h2>
+					<p>morbi interdum mollis sapien ed ac risus phasell</p>
+				</section>
+				<section class="three-person-sec">
+					<section class="first-person-sec">					
+						<img class="avatar-img" src="img/person-1.jpg" />
+						<h3>John doe</h3>
+						<p>your designation</p>
+					</section>
+					<section class="second-person-sec">					
+						<img class="avatar-img" src="img/person-2.jpeg" />
+						<h3>John doe</h3>
+						<p>your designation</p>
+					</section class="third-person-sec">
+					<section>					
+						<img  class="avatar-img" src="img/person-3.jpeg" />
+						<h3>John doe</h3>
+						<p>your designation</p>
+					</section>
+
+				</section>
+			</section>
+	   </main>
+	   <footer>
+	   </footer>
+   </body>
+</html>
