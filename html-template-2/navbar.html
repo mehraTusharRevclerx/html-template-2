@@ -1,215 +1,365 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Decorators</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <header class="nav-sec">
-      <section class="nav-logo-sec">
-        <a href="#">
-          <i class="fa-brands fa-pied-piper"></i>
-        </a>
-      </section>
-      <ul class="nav-sec-links">
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">ABOUT</a></li>
-        <li><a href="#">SERVICES</a></li>
-        <li><a href="#">CONTACT</a></li>
-        <li><a href="#">WORK</a></li>
-      </ul>
-    </header>
-    <main>
-      <section class="banner">
-        <section>
-          <i class="fa-solid fa-circle-arrow-left arrows"></i>
-        </section>
-        <section class="banner-text-sec">
-          <h1>amet conse</h1>
-          <h2>Lorem ipsum dolor sit amet conse vivamus turi</h2>
-          <p>nullam malesuada erat ut turpis suspendisse urna</p>
-          <p>lorem ipsum dlo</p>
-        </section>
-        <section>
-          <i class="fa-solid fa-circle-arrow-right arrows"></i>
-        </section>
-      </section>
-      <section class="second-sec">
-        <section class="second-sec-text">
-          <h2>sed egestas ante etviu</h2>
-          <p>morbi interdum mollis sapien ed ac risus phasell</p>
-        </section>
-        <section class="three-person-sec">
-          <section class="first-person-sec">
-            <img class="avatar-img" src="img/person-1.jpg" />
-            <h3>John doe</h3>
-            <p>your designation</p>
-          </section>
-          <section class="second-person-sec">
-            <img class="avatar-img" src="img/person-2.jpeg" />
-            <h3>John doe</h3>
-            <p>your designation</p>
-          </section>
-          <section class="third-person-sec">
-            <img class="avatar-img" src="img/person-3.jpeg" />
-            <h3>John doe</h3>
-            <p>your designation</p>
-          </section>
-        </section>
-      </section>
-      <section class="third-sec">
-        <section class="third-sec-first">
-          <section class="wrench-sec">
-            <section class="wrench-logo">
-              <i class="fa-solid fa-wrench"></i>
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+      <title>Decorators</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+      <link rel="stylesheet" href="css/style.css" />
+   </head>
+   <body>
+      <header class="nav-sec">
+         <section class="nav-logo-sec">
+            <a href="#">
+            <i class="fa-brands fa-pied-piper"></i>
+            </a>
+         </section>
+         <ul class="nav-sec-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">WORK</a></li>
+         </ul>
+      </header>
+      <main>
+         <section class="banner">
+            <section>
+               <i class="fa-solid fa-circle-arrow-left arrows"></i>
             </section>
-            <section class="wrench-text">
-              <h3>Vestibulum auctor</h3>
-              <p>Morbi interdum mollis sapien ed</p>
+            <section class="banner-text-sec">
+               <h1>amet conse</h1>
+               <h2>Lorem ipsum dolor sit amet conse vivamus turi</h2>
+               <p>nullam malesuada erat ut turpis suspendisse urna</p>
+               <button>lorem ipsum dlo</button>
             </section>
-          </section>
-          <section class="wrench-para-sec">
-            <p class="wrench-para">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-              iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
-              Incidunt veritatis ratione asperiores iste voluptates reiciendis
-              quod, cum debitis consectetur
-            </p>
-          </section>
-          <section class="wrench-btn-sec">
-            <button>More<i class="fa-solid fa-arrow-right"></i></button>
-          </section>
-        </section>
-        <section class="third-sec-first">
-          <section class="wrench-sec">
-            <section class="wrench-logo">
-              <i class="fa-solid fa-wrench"></i>
+            <section>
+               <i class="fa-solid fa-circle-arrow-right arrows"></i>
             </section>
-            <section class="wrench-text">
-              <h3>Vestibulum auctor</h3>
-              <p>Morbi interdum mollis sapien ed</p>
+         </section>
+         <section class="second-sec">
+            <section class="second-sec-text">
+               <h2>sed egestas ante etviu</h2>
+               <p>morbi interdum mollis sapien ed ac risus phasell</p>
             </section>
-          </section>
-          <section class="wrench-para-sec">
-            <p class="wrench-para">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-              iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
-              Incidunt veritatis ratione asperiores iste voluptates reiciendis
-              quod, cum debitis consectetur
-            </p>
-          </section>
-          <section class="wrench-btn-sec">
-            <button>More<i class="fa-solid fa-arrow-right"></i></button>
-          </section>
-        </section>
-        <section class="third-sec-first">
-          <section class="wrench-sec">
-            <section class="wrench-logo">
-              <i class="fa-solid fa-wrench"></i>
+            <section class="three-person-sec">
+               <section class="first-person-sec">
+                  <img class="avatar-img" src="img/person-1.jpg" />
+                  <h3>John doe</h3>
+                  <p>your designation</p>
+               </section>
+               <section class="second-person-sec">
+                  <img class="avatar-img" src="img/person-2.jpeg" />
+                  <h3>John doe</h3>
+                  <p>your designation</p>
+               </section>
+               <section class="third-person-sec">
+                  <img class="avatar-img" src="img/person-3.jpeg" />
+                  <h3>John doe</h3>
+                  <p>your designation</p>
+               </section>
             </section>
-            <section class="wrench-text">
-              <h3>Vestibulum auctor</h3>
-              <p>Morbi interdum mollis sapien ed</p>
+         </section>
+         <section class="third-sec">
+            <section class="third-sec-first">
+               <section class="wrench-sec">
+                  <section class="wrench-logo">
+                     <i class="fa-solid fa-wrench"></i>
+                  </section>
+                  <section class="wrench-text">
+                     <h3>Vestibulum auctor</h3>
+                     <p>Morbi interdum mollis sapien ed</p>
+                  </section>
+               </section>
+               <section class="wrench-para-sec">
+                  <p class="wrench-para">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+                     iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
+                     Incidunt veritatis ratione asperiores iste
+                  </p>
+               </section>
+               <section class="wrench-btn-sec">
+                  <button>
+                  <span>
+                  More
+                  </span>
+                  <span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                  </button>
+               </section>
             </section>
-          </section>
-          <section class="wrench-para-sec">
-            <p class="wrench-para">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-              iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
-              Incidunt veritatis ratione asperiores iste voluptates reiciendis
-              quod, cum debitis consectetur
-            </p>
-          </section>
-          <section class="wrench-btn-sec">
-            <button>More<i class="fa-solid fa-arrow-right"></i></button>
-          </section>
-        </section>
-      </section>
-      <section class="fourth-sec">
-        <section class="left-fourth-sec">
-          <section class="first-fourth-sec">
-            <section class="first-img">
-              <img src="img/child-1.jpg" alt="child image" />
+            <section class="third-sec-first">
+               <section class="wrench-sec">
+                  <section class="wrench-logo">
+                     <i class="fa-solid fa-leaf"></i>
+                  </section>
+                  <section class="wrench-text">
+                     <h3>Vestibulum auctor</h3>
+                     <p>Morbi interdum mollis sapien ed</p>
+                  </section>
+               </section>
+               <section class="wrench-para-sec">
+                  <p class="wrench-para">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+                     iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
+                     Incidunt veritatis ratione asperiores iste
+                  </p>
+               </section>
+               <section class="wrench-btn-sec">
+                  <button>
+                  <span>
+                  More
+                  </span>
+                  <span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                  </button>
+               </section>
             </section>
-            <section class="img-sec-text">
-              <section class="fourth-sec-mainhead">
-                <h3>Vivamus vestibulum nulla nec ante</h3>
-                <p>
-                  sed egestas,ante et vulputate volupat,eros pede semper est
-                </p>
-              </section>
-              <section class="fourth-para-sec">
-                <p class="fourth-para">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-                  iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
-                  Incidunt veritatis ratione asperiores iste voluptates
-                </p>
-              </section>
-              <section class="fourth-btn-sec">
-                <button>More<i class="fa-solid fa-arrow-right"></i></button>
-              </section>
+            <section class="third-sec-first">
+               <section class="wrench-sec">
+                  <section class="wrench-logo">
+                     <i class="fa-solid fa-flag"></i>
+                  </section>
+                  <section class="wrench-text">
+                     <h3>Vestibulum auctor</h3>
+                     <p>Morbi interdum mollis sapien ed</p>
+                  </section>
+               </section>
+               <section class="wrench-para-sec">
+                  <p class="wrench-para">
+                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+                     iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
+                     Incidunt veritatis ratione asperiores iste
+                  </p>
+               </section>
+               <section class="wrench-btn-sec">
+                  <button>
+                  <span>
+                  More
+                  </span>
+                  <span>
+                  <i class="fa-solid fa-arrow-right"></i>
+                  </span>
+                  </button>
+               </section>
             </section>
-          </section>
-          <section class="first-fourth-sec">
-            <section class="first-img">
-              <img src="img/child-1.jpg" alt="child image" />
+         </section>
+         <section class="fourth-sec">
+            <section class="left-fourth-sec">
+               <section class="first-fourth-sec border">
+                  <section class="first-img">
+                     <img src="img/child-1.jpg" alt="child image" />
+                  </section>
+                  <section class="img-sec-text">
+                     <section class="fourth-sec-mainhead">
+                        <h3>Vivamus vestibulum nulla nec ante</h3>
+                        <p>
+                           sed egestas,ante et vulputate volupat,eros pede semper est
+                        </p>
+                     </section>
+                     <section class="fourth-para-sec">
+                        <p class="fourth-para">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+                           iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
+                           Incidunt veritatis ratione asperiores iste voluptates
+                        </p>
+                     </section>
+                     <section class="fourth-btn-sec">
+                        <button>
+                        <span>
+                        More
+                        </span>
+                        <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        </button>
+                     </section>
+                  </section>
+               </section>
+               <section class="first-fourth-sec ">
+                  <section class="first-img">
+                     <img src="img/child-1.jpg" alt="child image" />
+                  </section>
+                  <section class="img-sec-text">
+                     <section class="fourth-sec-mainhead">
+                        <h3>Vestibulum auctor</h3>
+                        <p>Morbi interdum mollis sapien ed</p>
+                     </section>
+                     <section class="fourth-para-sec">
+                        <p class="fourth-para">
+                           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
+                           iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
+                           Incidunt veritatis ratione asperiores iste voluptates
+                        </p>
+                     </section>
+                     <section class="fourth-btn-sec">
+                        <button>
+                        <span>
+                        More
+                        </span>
+                        <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                        </span>
+                        </button>
+                     </section>
+                  </section>
+               </section>
             </section>
-            <section class="img-sec-text">
-              <section class="fourth-sec-mainhead">
-                <h3>Vestibulum auctor</h3>
-                <p>Morbi interdum mollis sapien ed</p>
-              </section>
-              <section class="fourth-para-sec">
-                <p class="fourth-para">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi
-                  iste eligendi minus unde a reprehenderit ipsa, eos quisquam?
-                  Incidunt veritatis ratione asperiores iste voluptates
-                </p>
-              </section>
-              <section class="fourth-btn-sec">
-                <button>More<i class="fa-solid fa-arrow-right"></i></button>
-              </section>
+            <section class="form-sec">
+               <section class="wrench-sec">
+                  <section class="wrench-logo">
+                     <i class="fa-solid fa-pen"></i>
+                  </section>
+                  <section class="wrench-text">
+                     <h3>Vestibulum auctor</h3>
+                     <p>Morbi interdum mollis sapien ed</p>
+                  </section>
+               </section>
+               <section class="form-input-sec">
+                  <input type="text" placeholder="Your Name.." />
+                  <input type="text" placeholder="Your email id.." />
+                  <input type="number" name="" id="" placeholder="Your phone.." />
+                  <textarea
+                     name=""
+                     id=""
+                     cols="30"
+                     rows="8"
+                     placeholder="your message.."
+                     ></textarea>
+                  <section class="wrench-btn-sec">
+                     <button>
+                     <span>
+                     send
+                     </span>
+                     <span>
+                     <i class="fa-solid fa-arrow-right"></i>
+                     </span>
+                     </button>
+                  </section>
+               </section>
             </section>
-          </section>
-        </section>
-        <section class="form-sec">
-          <section class="wrench-sec">
-            <section class="wrench-logo">
-              <i class="fa-solid fa-pen"></i>
-            </section>
-            <section class="wrench-text">
-              <h3>Vestibulum auctor</h3>
-              <p>Morbi interdum mollis sapien ed</p>
-            </section>
-          </section>
-          <section class="form-input-sec">
-            <input type="text" placeholder="Your Name.." />
-            <input type="text" placeholder="Your email id.." />
-            <input type="number" name="" id="" placeholder="Your phone.." />
-            <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
-              placeholder="your message.."
-            ></textarea>
-            <section class="wrench-btn-sec">
-              <button>send<i class="fa-solid fa-arrow-right"></i></button>
-            </section>
-          </section>
-        </section>
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+         </section>
+      </main>
+      <footer >
+		  <section class="footer-sec"> 
+				<section class="footer-links">
+					<div class="first-link-sec">
+				<h3>ALIQUAM TINCID</h3>
+					<ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+				</div>
+				<div class="second-link-sec">
+				   <h3>LOREM IPSUM</h3>
+				   <ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+				</div>
+				<div class="third-link-sec">
+				   <h3>SEDLU PRASE</h3>
+				   <ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+				</div>
+				<div class="fourth-link-sec">
+				   <h3>COMMOD QUIS</h3>
+				   <ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+				</div>
+				<div class="fifth-link-sec">
+				   <h3>VOLUPTAT SIN</h3>
+				   <ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+				</div>
+				<div class="sixth-link-sec">
+				   <h3>NEGANT IPONS</h3>
+				   <ul>
+					  <li>
+						 <a href="#">Nunc dignissim risus</a>
+					  </li>
+					  <li>
+						 <a href="#">cras ornare</a>
+					  </li>
+					  <li>
+						 <a href="#">trist vivamus</a>
+					  </li>
+					  <li>
+						 <a href="#">vestibul praese</a>
+					  </li>
+				   </ul>
+            </div>
+         </section>
+		  </section>
+         <section class="copyright-sec"> 
+			<p>Copyright&copy;website name. Designed by: <a href="#">www.alltemplateneeds.com/Images</a> from: <a href="#">www.wallcoo.net</a> Free</p>
+			<p>Templates by <a href="#">Free Temptes.pro</a></p>
+         </section>
+      </footer>
+   </body>
 </html>
